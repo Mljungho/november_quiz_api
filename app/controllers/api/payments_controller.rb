@@ -15,7 +15,6 @@ class Api::PaymentsController < ApplicationController
       description: 'Payment for Quiz' # Is this really required?
     )
     
-    binding.pry
     # 3. Respond with charged status (paid)
     render json: { paid: charge.paid }, status: :created # :created is rails equivalent of 201
 
