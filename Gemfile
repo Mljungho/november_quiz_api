@@ -9,6 +9,7 @@ gem 'puma', '~> 5.0'
 gem 'rack-cors'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'rest-client'
+gem 'geocoder'
 
 group :development, :test do
   gem 'factory_bot_rails'
